@@ -1,14 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-  <classpathentry kind="output" path="build/classes/main"/>
-  <classpathentry output="build/classes/main" kind="src" path="src/main/groovy"/>
-  <classpathentry output="build/classes/test" kind="src" path="src/test/groovy"/>
-  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER" exported="true"/>
-  <classpathentry kind="lib" path="./lib/asm-analysis-3.2.jar" exported="true"/>
-  <classpathentry sourcepath="/home/tony/.gradle/cache/org.spockframework/spock-core/sources/spock-core-0.5-groovy-1.7-sources.jar" kind="lib" path="./lib/spock-core-0.5-groovy-1.7.jar" exported="true"/>
-  <classpathentry sourcepath="/home/tony/.gradle/cache/org.codehaus.groovy/groovy-all/sources/groovy-all-1.7.8-sources.jar" kind="lib" path="./lib/groovy-all-1.7.8.jar" exported="true"/>
-  <classpathentry kind="lib" path="./lib/asm-tree-3.2.jar" exported="true"/>
-  <classpathentry kind="lib" path="./lib/antlr-2.7.7.jar" exported="true"/>
-  <classpathentry kind="lib" path="./lib/asm-util-3.2.jar" exported="true"/>
-  <classpathentry kind="lib" path="./lib/asm-commons-3.2.jar" exported="true"/>
-  <classpathentry kind="lib" path="./lib/asm-3.2.jar" exported="true"/>
+	<classpathentry kind="src" output="build/classes/main" path="src/main/groovy"/>
+	<classpathentry kind="src" output="build/classes/test" path="src/test/groovy"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry exported="true" kind="lib" path="lib/asm-analysis-3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/spock-core-0.5-groovy-1.7.jar" sourcepath="/home/tony/.gradle/cache/org.spockframework/spock-core/sources/spock-core-0.5-groovy-1.7-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/groovy-all-1.7.8.jar" sourcepath="/home/tony/.gradle/cache/org.codehaus.groovy/groovy-all/sources/groovy-all-1.7.8-sources.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/asm-tree-3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/antlr-2.7.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/asm-util-3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/asm-commons-3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/asm-3.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-cli-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/gpars-0.11.jar"/>
+	<classpathentry kind="lib" path="lib/hamcrest-core-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/jsr166y-070108.jar"/>
+	<classpathentry kind="lib" path="lib/junit-dep-4.8.2.jar"/>
+	<classpathentry kind="output" path="build/classes/main"/>
 </classpath>
