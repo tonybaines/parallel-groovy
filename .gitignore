@@ -1,5 +1,7 @@
 build
 .gradle
 lib
+parallel-groovy
+parallel-groovy.zip
 .settings
 target
