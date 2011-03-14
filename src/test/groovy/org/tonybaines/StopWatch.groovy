@@ -1,4 +1,4 @@
-package org.tonybaines.gpars.collections
+package org.tonybaines
 
 class StopWatch {
 	long start = 0

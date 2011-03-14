@@ -2,6 +2,7 @@ package org.tonybaines.gpars.collections
 
 import static groovyx.gpars.GParsPool.*
 
+import org.tonybaines.StopWatch;
 import org.tonybaines.gpars.HardWork
 
 import spock.lang.Ignore
