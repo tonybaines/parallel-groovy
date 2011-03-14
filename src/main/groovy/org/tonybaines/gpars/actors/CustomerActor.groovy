@@ -15,9 +15,11 @@ class CustomerActor extends DefaultActor {
 	}
 	
 	void act() {
-		log.info "Asking for my $drink"
+		log.info "[$drink Customer] Asking for my $drink"
 		sales.send(new Order(customer: this, drink: drink))
 		loop {
+			// This is a stateful model - the Customer waits to pay, then for their drink
+			// the messages can't be processed out of sequence 
 			react {
 				// Waiting to pay
 				log.info "[$drink Customer] Received a request to pay up $it"

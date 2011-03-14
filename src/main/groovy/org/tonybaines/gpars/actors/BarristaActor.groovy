@@ -9,9 +9,9 @@ class BarristaActor extends DefaultActor {
 	void act() {
         loop {
 			react {
-				log.info "Received a request to make: ${it.drink}"
+				log.info "[Barrista] Received a request to make: ${it.drink}"
 				make(it)
-				log.info "Made: ${it.drink}."
+				log.info "[Barrista] Made: ${it.drink}."
 				it.customer << it.drink
 			}
 		}

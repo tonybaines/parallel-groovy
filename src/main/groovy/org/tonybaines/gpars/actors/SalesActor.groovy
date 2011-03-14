@@ -15,8 +15,9 @@ class SalesActor extends DefaultActor {
 	void act() {
         loop {
 			react {
+				// This model is stateless - choose how to handle each type of message as it arrives
 				if (it instanceof Order) {
-					log.info "Recieved an order for: ${it.drink}"
+					log.info "[Sales] Recieved an order for: ${it.drink}"
 					barrista << it
 					reply(1.0)
 				}
